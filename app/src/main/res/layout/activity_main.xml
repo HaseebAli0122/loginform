@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_signup"
         android:text="SignUp"
+        android:background="@drawable/buttoncolour"
         android:textSize="19dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
@@ -77,6 +78,7 @@
         android:id="@+id/btnsignin"
         android:text="Sign In"
         android:textSize="19dp"
+        android:background="@drawable/buttoncolour"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         />
