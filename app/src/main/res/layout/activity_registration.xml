@@ -40,7 +40,7 @@
         android:textColor="@color/white"
         android:layout_margin="9dp"
         android:padding="10dp"
-        android:drawableLeft="@drawable/ic_person"/>
+        android:drawableLeft="@drawable/ic_fullname"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
