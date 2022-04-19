@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bottomnavi">
+    tools:context=".bottomnavigation">
 
     <FrameLayout
         android:id="@+id/FrameContainer"
@@ -13,7 +13,8 @@
         android:background="@color/teal_200"
         android:layout_above="@+id/bottom" />
 
-    <com.google.android.material.bottomnavi.BottomnaviView
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="109dp"
