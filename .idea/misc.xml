@@ -17,8 +17,10 @@
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/ic_lock.xml" value="0.1795" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.165" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/ic_search.xml" value="0.1795" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/item_selector.xml" value="0.1075" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/round_corner.xml" value="0.1075" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavi.xml" value="0.19010416666666666" />
-        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_button.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
@@ -29,6 +31,7 @@
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/92320/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.16" />

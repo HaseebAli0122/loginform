@@ -89,7 +89,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="300dp"
+            android:layout_marginLeft="270dp"
             android:text="OR"
             android:textSize="23dp"
             android:layout_marginTop="10dp"
@@ -106,6 +106,16 @@
             android:layout_marginLeft="240dp"
             android:background="@drawable/buttoncolour"
             android:text="Sign In"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/btn_fragments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/buttoncolour"
+            android:text="fragments"
             android:textSize="18dp" />
 
     </LinearLayout>

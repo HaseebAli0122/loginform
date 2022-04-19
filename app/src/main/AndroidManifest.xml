@@ -10,12 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
-            android:name=".MainActivity"
+            android:name=".bottomnavigation"
             android:exported="false" />
         <activity
-            android:name=".bottomnavigation"
-            android:exported="false"
-            android:label="@string/title_activity_bottomnavigation" />
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".bottomnavi"
             android:exported="false"

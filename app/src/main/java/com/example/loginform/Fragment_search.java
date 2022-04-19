@@ -5,17 +5,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Fragment_call#newInstance} factory method to
+ * Use the {@link Fragment_search#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Fragment_call extends Fragment {
-    EditText etNumber;
-    ImageButton btCall;
+public class Fragment_search extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +22,7 @@ public class Fragment_call extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Fragment_call() {
+    public Fragment_search() {
         // Required empty public constructor
     }
 
@@ -36,11 +32,11 @@ public class Fragment_call extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Fragment_call.
+     * @return A new instance of fragment Fragment_search.
      */
     // TODO: Rename and change types and number of parameters
-    public static Fragment_call newInstance(String param1, String param2) {
-        Fragment_call fragment = new Fragment_call();
+    public static Fragment_search newInstance(String param1, String param2) {
+        Fragment_search fragment = new Fragment_search();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +57,6 @@ public class Fragment_call extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_call, container, false);
+        return inflater.inflate(R.layout.fragment_search, container, false);
     }
 }
