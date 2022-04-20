@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:background="@drawable/back2"
     android:padding="24dp"
-    tools:context=".MainActivity">
+    tools:context=".Registration">
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
@@ -38,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Sign In Page"
+            android:text="Register Now"
             android:textStyle="italic"
             android:textAlignment="center"
             android:textColor="#EBD4003C"
@@ -57,6 +58,10 @@
             android:padding="10dp"
             android:textColor="@color/white" />
 
+
+
+
+
         <EditText
             android:id="@+id/edit"
             android:layout_width="match_parent"
@@ -64,59 +69,54 @@
             android:layout_margin="10dp"
             android:background="#ECB42B"
             android:hint="Password"
+            android:inputType="numberPassword"
             android:drawableLeft="@drawable/ic_lock"
             android:padding="9dp"
             android:textColor="@color/white" />
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="New User"
-            android:textSize="23dp"
+            android:layout_marginLeft="200dp"
+            android:text="Forgot Password?"
+            android:textSize="19dp"
             android:layout_marginTop="10dp"
+            android:gravity="right"
             android:textStyle="italic"
             android:textColor="#B3002A"/>
         <Button
-            android:id="@+id/btn_signup2"
+            android:id="@+id/btn_login2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="240dp"
             android:background="@drawable/buttoncolour"
-            android:text="SignUp"
+            android:text="Log in"
             android:textStyle="bold"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="270dp"
-            android:text="OR"
-            android:textSize="23dp"
+            android:layout_marginLeft="240dp"
+            android:text="New User"
+            android:textSize="19dp"
             android:layout_marginTop="10dp"
             android:gravity="right"
             android:textStyle="italic"
             android:textColor="#B3002A"/>
 
         <Button
-            android:id="@+id/btnsignin25"
+            android:id="@+id/btnsignup25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textStyle="bold"
             android:layout_marginLeft="240dp"
             android:background="@drawable/buttoncolour"
-            android:text="Sign In"
-            android:textSize="18dp" />
-        <Button
-            android:id="@+id/btn_fragments"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:layout_marginLeft="240dp"
-            android:background="@drawable/buttoncolour"
-            android:text="fragments"
-            android:textSize="18dp" />
+            android:text="Sign Up"
+            android:textSize="15dp" />
 
     </LinearLayout>
 
