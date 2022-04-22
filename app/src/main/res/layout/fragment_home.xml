@@ -1,89 +1,340 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".Fragment_home">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-         />
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Medicine "
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Dashboard"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:id="@+id/textview1"
+                />
+
+            <TextView
+                android:layout_below="@id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Qualitiy Gurrantied"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/mohib1" />
+
+
+
+        </RelativeLayout>
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnOrderPreserved="false"
+    android:alignmentMode="alignMargins"
+    android:columnCount="2"
+    android:rowCount="3"
+    >
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="12dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
         android:gravity="center"
-        android:textSize="25dp"
-        android:textColor="@color/purple_700"
-        />
-
-    <EditText
-        android:id="@+id/edit4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:background="@color/purple_200"
-        android:drawableLeft="@drawable/ic_fullname"
-        android:hint="Full Name"
-        android:padding="10dp"
-        android:textColor="@color/white" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/edit9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:background="@color/purple_200"
-        android:drawableLeft="@drawable/ic_email"
-        android:hint="Email Address"
-        android:padding="10dp"
-        android:textColor="@color/white" />
+        <ImageView
+            android:src="@drawable/medicine"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
 
-    <EditText
-        android:id="@+id/edit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:background="@color/purple_200"
-        android:drawableLeft="@drawable/ic_lock"
-        android:hint="Password"
-        android:padding="9dp"
-        android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicince"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="12dp"
+            />
 
-    <Button
-        android:id="@+id/btn_signup2"
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/buttoncolour"
-        android:text="SignUp"
-        android:textSize="11dp" />
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Already Register?"
-        android:textSize="13dp"
-        android:gravity="center"
-        android:layout_marginLeft="50dp"
-        android:textColor="#B3002A"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnsignin25"
+            <ImageView
+                android:src="@drawable/perfumes"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfumes"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/buttoncolour"
-        android:text="Sign In"
-        android:textSize="11dp" />
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/baby"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baby Products"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
 
 
-</LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/beauty"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beauty Products"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/baby"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baby Products"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/pedia"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedia Sure"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/personal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Care"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/treatment"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</GridLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
