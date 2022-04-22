@@ -66,6 +66,7 @@
             android:layout_margin="10dp"
             android:background="#ECB42B"
             android:hint="Password"
+            android:inputType="numberPassword"
             android:drawableLeft="@drawable/ic_lock"
             android:padding="9dp"
             android:layout_below="@+id/username1"
@@ -89,6 +90,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textStyle="bold"
+
             android:layout_marginLeft="240dp"
             android:background="@drawable/buttoncolour"
             android:text="Sign In"

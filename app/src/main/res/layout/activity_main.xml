@@ -82,6 +82,7 @@
             android:layout_margin="10dp"
             android:background="#ECB42B"
             android:hint="Re-password"
+            android:inputType="numberPassword"
             android:drawableLeft="@drawable/ic_lock"
             android:padding="10dp"
             android:layout_below="@+id/password"
