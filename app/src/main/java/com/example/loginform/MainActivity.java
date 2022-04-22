@@ -10,43 +10,45 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    EditText Email, password;
-    Button Login;
+    EditText username, password,repassword;
+    Button signup,signin;
     DBHelper DB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Email = findViewById(R.id.edit9);
-        password = findViewById(R.id.edit);
-        Login = findViewById(R.id.btn_login2);
+        username = (EditText) findViewById(R.id.edit9);
+        password = (EditText) findViewById(R.id.password);
+        repassword = (EditText) findViewById(R.id.repassword);
+        signup = (Button) findViewById(R.id.btnsignup25);
+        signin = (Button) findViewById(R.id.btnsignin25);
         DB = new DBHelper(this);
 
-       Login.setOnClickListener(new View.OnClickListener() {
+       signup.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
 
-               String user = Email.getText().toString();
+               String user = username.getText().toString();
                String pass = password.getText().toString();
-               if (TextUtils.isEmpty(user) || TextUtils.isEmpty(pass))
-                   Toast.makeText(MainActivity.this, "All fields are Required", Toast.LENGTH_SHORT).show();
+               String repass = repassword.getText().toString();
+               if (user.equals("") || pass.equals("") || repass.equals(""))
+                   Toast.makeText(MainActivity.this, "Please Enter All the fields ", Toast.LENGTH_SHORT).show();
                else {
-                   if (pass.equals(pass)) {
-                       Boolean checkuser = DB.checkEmail(user);
+                   if (pass.equals(repass)) {
+                       Boolean checkuser = DB.checkusername(user);
                        if (checkuser == false) {
                            Boolean insert = DB.insertData(user, pass);
                            if (insert == true) {
-                               Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                               Toast.makeText(MainActivity.this, "Regitered Successful", Toast.LENGTH_SHORT).show();
                                Intent intent = new Intent(getApplicationContext(), bottomnavigation.class);
                                startActivity(intent);
                            } else {
-                               Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                               Toast.makeText(MainActivity.this, "Registration Failed", Toast.LENGTH_SHORT).show();
                            }
                        } else {
-                           Toast.makeText(MainActivity.this, "User already Exists", Toast.LENGTH_SHORT).show();
-                           Intent intent = new Intent(getApplicationContext(), bottomnavigation.class);
-                           startActivity(intent);
+                           Toast.makeText(MainActivity.this, "User already Exists Please Signin", Toast.LENGTH_SHORT).show();
+
                        }
                    } else {
                        Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
@@ -60,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+       });
+       signin.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent = new Intent(getApplicationContext(),Registration.class);
+               startActivity(intent);
+
+           }
        });
 
     }
