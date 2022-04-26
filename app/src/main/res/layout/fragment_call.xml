@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/back2"
+    android:padding="24dp"
     android:orientation="vertical"
     tools:context=".Fragment_call">
 
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_gravity="center"
+        android:src="@drawable/mohib1"
       />
 
     <TextView
@@ -22,38 +24,24 @@
         android:text="Medicine "
         android:textColor="@color/purple_700"
         android:textSize="25dp" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="If You want to call Us and want to get Information about our medicince then call us"
-        android:textSize="15dp"
+        android:textSize="25dp"
         android:textStyle="italic"
-        android:textColor="#FFA000"
+        android:textColor="#E91E63"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="This is Our Number 0123456789"
-        android:textSize="15dp"
-        android:textColor="#FFA000"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_number"
-        android:hint="Enter Phone Number"
-        android:digits="0123456789"
-        android:maxLength="10"
-        android:inputType="phone"
-        />
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:id="@+id/bt_call"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/ic_call"
-        android:background="@drawable/bg_round"/>
 
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Click Here to Call"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+
+        />
 </LinearLayout>

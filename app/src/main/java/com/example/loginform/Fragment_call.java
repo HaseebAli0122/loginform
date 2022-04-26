@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Button;
+import android.content.Intent;
+import android.view.View;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,8 +17,9 @@ import android.widget.ImageButton;
  * create an instance of this fragment.
  */
 public class Fragment_call extends Fragment {
-    EditText etNumber;
-    ImageButton btCall;
+   public Button button;
+
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,6 +65,19 @@ public class Fragment_call extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_call, container, false);
+        View v = inflater.inflate(R.layout.fragment_call, container, false);
+
+        button=(Button) v.findViewById(R.id.btn_join);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(getActivity(),call.class);
+                startActivity(intent);
+            }
+        });
+
+        return v;
+
+
     }
 }
