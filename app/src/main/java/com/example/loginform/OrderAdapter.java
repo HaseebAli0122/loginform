@@ -63,15 +63,7 @@ Context context;
 // lets get the position of the view in list and then work on it
             int position = getAdapterPosition();
 
-            if (position == 0) {
-                Intent intent = new Intent(context, info.class);
-                context.startActivity(intent);
-            }
 
-            if (position == 1) {
-                Intent intent2 = new Intent(context, Latte.class);
-                context.startActivity(intent2);
-            }
         }
     }
 
