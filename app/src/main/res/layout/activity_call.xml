@@ -28,6 +28,14 @@
         android:textSize="28dp" />
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If You Want to Call us then Call"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/edit_text_number"
