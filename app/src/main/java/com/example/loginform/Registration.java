@@ -34,7 +34,7 @@ public class Registration extends AppCompatActivity {
                    Boolean checkuserpass = DB.checkusernamepassword(user,pass);
                    if(checkuserpass==true){
                        Toast.makeText(Registration.this, "Sign in Successfully", Toast.LENGTH_SHORT).show();
-                       Intent intent = new Intent(getApplicationContext(),medicinecart.class);
+                       Intent intent = new Intent(getApplicationContext(),bottomnavigation.class);
                        startActivity(intent);
                    }else{
                        Toast.makeText(Registration.this, "Invalid Crendentials", Toast.LENGTH_SHORT).show();
