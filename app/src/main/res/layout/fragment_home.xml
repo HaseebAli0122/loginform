@@ -147,15 +147,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:src="@drawable/baby"
-                android:layout_width="80dp"
-                android:layout_height="80dp"/>
+           <ImageButton
+               android:layout_width="130dp"
+               android:layout_height="140dp"
+               android:src="@drawable/baby"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Baby Products"
+                android:textStyle="italic"
                 android:textSize="18sp"
                 android:textColor="@color/purple_500"
                 android:layout_marginTop="12dp"
