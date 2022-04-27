@@ -1,5 +1,6 @@
 package com.example.loginform;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,6 +14,7 @@ import android.widget.Button;
  * create an instance of this fragment.
  */
 public class Fragment_category extends Fragment {
+    public Button button;
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -58,7 +60,15 @@ public class Fragment_category extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_category, container, false);
+        View v = inflater.inflate(R.layout.fragment_category, container, false);
+        button=(Button) v.findViewById(R.id.btnmain);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(getActivity(),medicinecart.class);
+                startActivity(intent);
+            }
+        });
+        return v;
     }
 }

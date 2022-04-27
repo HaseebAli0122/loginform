@@ -72,19 +72,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:src="@drawable/medicine"
-            android:layout_width="80dp"
-            android:layout_height="80dp"/>
+       <ImageButton
+           android:layout_width="130dp"
+           android:layout_height="140dp"
+           android:src="@drawable/medi25"
 
+           />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medicince"
+            android:textStyle="italic"
             android:textSize="18sp"
             android:textColor="@color/purple_500"
             android:layout_marginTop="12dp"
             />
+
+
 
 
 
@@ -107,15 +111,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:src="@drawable/perfumes"
-                android:layout_width="80dp"
-                android:layout_height="80dp"/>
+           <ImageButton
+               android:layout_width="130dp"
+               android:layout_height="140dp"
+               android:src="@drawable/perfumes"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Perfumes"
+                android:textStyle="italic"
                 android:textSize="18sp"
                 android:textColor="@color/purple_500"
                 android:layout_marginTop="12dp"
