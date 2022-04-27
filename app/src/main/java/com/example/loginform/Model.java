@@ -6,10 +6,10 @@ public class Model {
     String mMedicineDetail;
     int mMedicinePhoto;
 
-    public Model(String mMedicineName, String mMedicineDetail, int mDrinkPhoto) {
+    public Model(String mMedicineName, String mMedicineDetail, int mMedicinePhoto) {
         this.mMedicineName = mMedicineName;
         this.mMedicineDetail = mMedicineDetail;
-        this.mMedicinePhoto = mDrinkPhoto;
+        this.mMedicinePhoto = mMedicinePhoto;
     }
 
     public String getmMedicineName() {

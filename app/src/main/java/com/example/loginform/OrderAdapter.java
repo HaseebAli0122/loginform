@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.text.BreakIterator;
 import java.util.List;
 
 public class OrderAdapter extends RecyclerView.Adapter <OrderAdapter.ViewHolder> {
@@ -44,7 +45,8 @@ Context context;
     }
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
         // here will be find the views that an which we will inflate our data
         TextView mMedicineName,mMedicineDescription;
         ImageView imageView;
