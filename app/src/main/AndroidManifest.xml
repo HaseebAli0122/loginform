@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+            android:name=".Medical_treatment"
+            android:exported="false" />
+        <activity
             android:name=".beauty_product"
             android:exported="false" />
         <activity
