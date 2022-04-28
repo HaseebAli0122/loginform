@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+            android:name=".personal_care"
+            android:exported="false" />
+        <activity
+            android:name=".pediasure"
+            android:exported="false" />
+        <activity
             android:name=".Medical_treatment"
             android:exported="false" />
         <activity
