@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+            android:name=".gloves"
+            android:exported="false" />
+        <activity
             android:name=".personal_care"
             android:exported="false" />
         <activity
