@@ -15,7 +15,7 @@ import android.widget.ImageButton;
  * create an instance of this fragment.
  */
 public class Fragment_home extends Fragment {
-    public ImageButton imageButton,btnperfume;
+    public ImageButton imageButton,btnperfume,btnbaby,btnproduct;
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -65,6 +65,22 @@ public class Fragment_home extends Fragment {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
         imageButton = (ImageButton) v.findViewById(R.id.btn_medi25);
         btnperfume= (ImageButton) v.findViewById(R.id.btn_perfums);
+        btnbaby = (ImageButton) v.findViewById(R.id.btn_baby);
+        btnproduct = (ImageButton) v.findViewById(R.id.btn_product);
+        btnproduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),beauty_product.class);
+                startActivity(intent);
+            }
+        });
+        btnbaby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),Baby_product.class);
+                startActivity(intent);
+            }
+        });
         btnperfume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

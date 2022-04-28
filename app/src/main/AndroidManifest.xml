@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+            android:name=".beauty_product"
+            android:exported="false" />
+        <activity
+            android:name=".Baby_product"
+            android:exported="false" />
+        <activity
             android:name=".Perfume"
             android:exported="false" />
         <activity
