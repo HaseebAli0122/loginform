@@ -12,7 +12,7 @@ import android.widget.SearchView;
 public class Search extends AppCompatActivity {
 
     ListView listView;
-    String[] nameList={"Panadol","Disprin","Risek","Omega","Zopent","Ascard","Myteka","Gaviscon"};
+    String[] nameList={"Panadol","Disprin","Risek","Omega","Zopent","Ascard","Myteka","Gaviscon","Brufen","Polyfax","Pyodine","Mucaine","Humulin","Nilstat Drops","No Kuft"};
     ArrayAdapter<String> adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
