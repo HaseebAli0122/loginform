@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
-
+<<<<<<<<< Temporary merge branch 1
+            android:name=".Perfume"
+=========
             android:name=".optionfor"
             android:exported="false" />
         <activity
@@ -21,8 +23,13 @@
         <activity
             android:name=".call"
             android:exported="false" />
-
-
+        <activity
+            android:name=".SummaryActivity"
+>>>>>>>>> Temporary merge branch 2
+            android:exported="false" />
+        <activity
+            android:name=".call"
+            android:exported="false" />
         <activity
             android:name=".medicinecart"
             android:exported="false" />
