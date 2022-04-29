@@ -43,8 +43,9 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="Click Here to Call"
-        android:textColor="@color/white"
-        android:background="@color/purple_500"
+        android:textColor="@color/black"
+        android:background="@drawable/buttoncolour"
+        android:textSize="15dp"
 
         />
 </LinearLayout>
