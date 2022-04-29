@@ -15,7 +15,7 @@ import android.widget.ImageButton;
  * create an instance of this fragment.
  */
 public class Fragment_home extends Fragment {
-    public ImageButton imageButton,btnperfume;
+    public ImageButton imageButton,btnperfume,btnbaby,btnproduct,btntreatment,btnpedia,btnpersonal,btnglove;
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -65,6 +65,54 @@ public class Fragment_home extends Fragment {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
         imageButton = (ImageButton) v.findViewById(R.id.btn_medi25);
         btnperfume= (ImageButton) v.findViewById(R.id.btn_perfums);
+        btnbaby = (ImageButton) v.findViewById(R.id.btn_baby);
+        btnproduct = (ImageButton) v.findViewById(R.id.btn_product);
+        btntreatment = (ImageButton) v.findViewById(R.id.btn_treatment);
+        btnpedia = (ImageButton) v.findViewById(R.id.btn_pedia) ;
+        btnpersonal = (ImageButton) v.findViewById(R.id.btn_personal);
+        btnglove = (ImageButton) v.findViewById(R.id.btn_glove);
+        btnglove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),gloves.class);
+                startActivity(intent);
+            }
+        });
+        btnpersonal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),personal_care.class);
+                startActivity(intent);
+            }
+        });
+        btnpedia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),pediasure.class);
+                startActivity(intent);
+            }
+        });
+        btntreatment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),Medical_treatment.class);
+                startActivity(intent);
+            }
+        });
+        btnproduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),beauty_product.class);
+                startActivity(intent);
+            }
+        });
+        btnbaby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),Baby_product.class);
+                startActivity(intent);
+            }
+        });
         btnperfume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

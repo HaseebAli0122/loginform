@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".Fragment_home">
+    tools:context=".beauty_product">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Dashboard"
+                android:text="Beauty Product"
+                android:textStyle="italic"
                 android:textSize="22sp"
                 android:textColor="@color/black"
                 android:id="@+id/textview1"
@@ -71,19 +72,17 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_medi25"
+                    <ImageView
+                        android:src="@drawable/kun"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/medi25"
+                        android:layout_height="140dp"/>
 
-                        />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Medicince"
+                        android:text="Keune Hair Colour"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
                         android:textStyle="italic" />
@@ -107,17 +106,17 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_perfums"
+                    <ImageView
+                        android:src="@drawable/nail"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/perfumes" />
+                        android:layout_height="140dp"/>
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Perfumes"
+                        android:text="Nail Remover"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
                         android:textStyle="italic" />
@@ -141,17 +140,16 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_baby"
-                        android:layout_width="130dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/baby" />
 
+                    <ImageView
+                        android:src="@drawable/face"
+                        android:layout_width="130dp"
+                        android:layout_height="140dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Baby Products"
+                        android:text="Face Mask"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
                         android:textStyle="italic" />
@@ -175,17 +173,16 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_product"
+                    <ImageView
+                        android:src="@drawable/facialkit"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/beauty" />
+                        android:layout_height="140dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Beauty Products"
+                        android:text="Facial Kit"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp"
                         android:textStyle="italic" />
@@ -209,17 +206,16 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_treatment"
-                        android:layout_width="120dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/treatment" />
+                    <ImageView
+                        android:src="@drawable/heads"
+                        android:layout_width="130dp"
+                        android:layout_height="140dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Medicial Treatment"
+                        android:text="Heads Shoulders"
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp" />
@@ -243,18 +239,17 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btn_pedia"
+                    <ImageView
+                        android:src="@drawable/amla"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"
-                        android:src="@drawable/pedia"/>
+                        android:layout_height="140dp"/>
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Pedia Sure"
+                        android:text="Amla Hair oil"
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp" />
@@ -278,11 +273,10 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                   <ImageButton
-                       android:layout_width="130dp"
-                       android:layout_height="140dp"
-                       android:src="@drawable/personal"
-                       android:id="@+id/btn_personal"/>
+                    <ImageView
+                        android:src="@drawable/keratain"
+                        android:layout_width="130dp"
+                        android:layout_height="140dp"/>
 
 
 
@@ -290,7 +284,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Personal Care"
+                        android:text="Hair Mask"
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp" />
@@ -314,17 +308,16 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                  <ImageButton
-                      android:layout_width="130dp"
-                      android:layout_height="140dp"
-                      android:id="@+id/btn_glove"
-                      android:src="@drawable/gloves"/>
+                    <ImageView
+                        android:src="@drawable/dov"
+                        android:layout_width="130dp"
+                        android:layout_height="140dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Gloves"
+                        android:text="Dove Soap"
                         android:textStyle="italic"
                         android:textColor="@color/purple_500"
                         android:textSize="18sp" />
