@@ -25,11 +25,9 @@
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavi.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_button.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_call.xml" value="0.17527173913043478" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_info.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_medicinecart.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_perfume.xml" value="0.17527173913043478" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_splashs.xml" value="0.19010416666666666" />
@@ -42,7 +40,6 @@
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/listitem.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/listitem1.xml" value="0.17527173913043478" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/92320/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.16" />
@@ -50,7 +47,9 @@
         <entry key="..\:/loginform/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_optionfor.xml" value="0.20416666666666666" />
+        <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_perfume.xml" value="0.1" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/fragment_call.xml" value="0.20416666666666666" />
