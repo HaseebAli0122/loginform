@@ -7,6 +7,7 @@
     <string name="title_activity_bottomnavi">bottomnavi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="Disprine">Disprin Tablet is an antiplatelet drug which is used to prevent clots in blood vessels and also relieves pain and inflammation.!</string>
 
 
@@ -30,5 +31,8 @@
     <string name="Nilstat">NILSTAT is a trade name for the antifungal medicine, Nystatin.
         Nystatin is used to treat a condition called oral candidiasis or thrush. This is an infection in the
         mouth caused by the fungus Candida and is marked by sore, creamy-yellow, raised patches in the mouth.</string>
-    <string name="Humuline">Humulin 70/30 is a mixture of 70% Human Insulin Isophane Suspension and 30% Human Insulin Injection (rDNA origin) </string>
+    <string name="Humuline">Humulin 70/30 is a mixture of 70% Human Insulin Isophane Suspension and 30% 
+        Human Insulin Injection (rDNA origin) </string>
+    <string name="Dunhil"> The fragrance is a concoction of woody and floral scents with a prominent leathery smell.
+        It is for men looking to leave an impression.</string>
 </resources>
