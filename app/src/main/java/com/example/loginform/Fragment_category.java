@@ -62,11 +62,11 @@ public class Fragment_category extends Fragment {
                              Bundle savedInstanceState) {
 
         View v = inflater.inflate(R.layout.fragment_category, container, false);
-        button = (Button) v.findViewById(R.id.btnmain);
+        button = (Button) v.findViewById(R.id.videos);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), medicinecart.class);
+                Intent intent = new Intent(getActivity(), video.class);
                 startActivity(intent);
             }
         });

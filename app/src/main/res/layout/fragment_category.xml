@@ -23,6 +23,38 @@
         android:text="Medicine "
         android:textColor="@color/purple_700"
         android:textSize="25dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Quality Quarantied"
+    android:textSize="19dp"
+    android:textColor="@color/purple_500"
+    />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:text="The video is about our Medicine
+                The   Medicine adversiting is most common medicine name panadol"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/videos"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Advertisment of Medicines"
+        android:textSize="19dp"
+        android:background="@drawable/buttoncolour"
+        />
+
 
 
 </LinearLayout>
