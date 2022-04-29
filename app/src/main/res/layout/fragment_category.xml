@@ -28,7 +28,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="If you Want to search our Medicince Categories then here is a search box"
+        android:text="If you Want to search our Medicince Categories then here is a search box You search here"
         android:textSize="19dp"
         android:textColor="@color/Call"
         />
