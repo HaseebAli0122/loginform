@@ -65,8 +65,10 @@
         <entry key="..\:/loginformupdate/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/toolbar_title_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/loginformupdate/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/menu/menu_item.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/menu/menusearch.xml" value="0.20416666666666666" />
+        <entry key="..\:/loginformupdate/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
