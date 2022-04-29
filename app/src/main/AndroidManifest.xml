@@ -13,29 +13,15 @@
         android:theme="@style/Theme.Loginform">
 
         <activity
-            android:name=".gloves"
-            android:exported="false" />
-        <activity
-            android:name=".personal_care"
-            android:exported="false" />
-        <activity
-            android:name=".pediasure"
-            android:exported="false" />
-        <activity
-            android:name=".Medical_treatment"
-            android:exported="false" />
-        <activity
-            android:name=".beauty_product"
-            android:exported="false" />
-        <activity
-            android:name=".Baby_product"
-            android:exported="false" />
-        <activity
-            android:name=".Perfume"
-            android:exported="false" />
-        <activity
             android:name=".Search"
             android:exported="false" />
+        <activity
+            android:name=".call"
+            android:exported="false" />
+        <activity
+            android:name=".SummaryActivity"
+            android:exported="false" />
+
         <activity
             android:name=".call"
             android:exported="false" />
