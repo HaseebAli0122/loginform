@@ -1,10 +1,13 @@
 package com.example.loginform;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -12,6 +15,8 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Fragment_home extends Fragment {
+    public ImageButton imageButton,btnperfume;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -56,7 +61,25 @@ public class Fragment_home extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+
+        View v = inflater.inflate(R.layout.fragment_home, container, false);
+        imageButton = (ImageButton) v.findViewById(R.id.btn_medi25);
+        btnperfume= (ImageButton) v.findViewById(R.id.btn_perfums);
+        btnperfume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),Perfume.class);
+                startActivity(intent);
+
+            }
+        });
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), medicinecart.class);
+                startActivity(intent);
+            }
+        });
+        return v;
     }
 }

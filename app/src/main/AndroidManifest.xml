@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+
             android:name=".optionfor"
             android:exported="false" />
         <activity
@@ -20,12 +21,8 @@
         <activity
             android:name=".call"
             android:exported="false" />
-        <activity
-            android:name=".SummaryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".info"
-            android:exported="false" />
+
+
         <activity
             android:name=".medicinecart"
             android:exported="false" />
