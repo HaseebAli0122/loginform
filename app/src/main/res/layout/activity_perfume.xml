@@ -179,10 +179,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/gucci3"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/per_g"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -206,25 +208,26 @@
                 app:cardElevation="6dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="132dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
-                        android:src="@drawable/mill1"
+                    <ImageButton
+                        android:id="@+id/per_c"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="120dp"
+                        android:src="@drawable/mill1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="1 Million "
-                        android:textStyle="italic"
                         android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -245,10 +248,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/jai2"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/per_a"
+                        />
 
 
                     <TextView
@@ -279,10 +284,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/sreed7"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/per_i"
+                        />
 
 
 
@@ -314,10 +321,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/tom1"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/per_y"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
