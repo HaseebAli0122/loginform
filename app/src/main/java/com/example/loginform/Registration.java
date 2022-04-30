@@ -3,14 +3,19 @@ package com.example.loginform;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import java.nio.charset.StandardCharsets;
 
 public class Registration extends AppCompatActivity {
+    CheckBox showcheck_btn;
     EditText username,password;
     Button btnsignin;
     DBHelper DB;
@@ -22,7 +27,18 @@ public class Registration extends AppCompatActivity {
        username =(EditText) findViewById(R.id.username1);
        password = (EditText) findViewById(R.id.password1);
        btnsignin = (Button) findViewById(R.id.btnsignin26);
+       showcheck_btn = findViewById(R.id.checkboxbtn);
        DB = new DBHelper(this);
+       showcheck_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+           @Override
+           public void onCheckedChanged(CompoundButton ButtonView, boolean isChecked) {
+               if(isChecked){
+                   password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+               }else{
+                   password.setTransformationMethod(PasswordTransformationMethod.getInstance());
+               }
+           }
+       });
        btnsignin.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
