@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
         <activity
+            android:name=".VIDEO25"
+            android:exported="false" />
+        <activity
+            android:name=".video2"
+            android:exported="false" />
+        <activity
+            android:name=".video1"
+            android:exported="false" />
+        <activity
             android:name=".payment"
             android:exported="false" />
         <activity

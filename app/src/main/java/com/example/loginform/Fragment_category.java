@@ -2,7 +2,7 @@ package com.example.loginform;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +15,9 @@ import android.widget.Button;
  */
 public class Fragment_category extends Fragment {
     public Button button;
-
-
+    public Button button1;
+    public Button button2;
+    public Button button3;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -70,6 +71,32 @@ public class Fragment_category extends Fragment {
                 startActivity(intent);
             }
         });
+        button1=(Button) v.findViewById(R.id.video9);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), video1.class);
+                startActivity(intent);
+            }
+        });
+
+        button2=(Button) v.findViewById(R.id.video6);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), video2.class);
+                startActivity(intent);
+            }
+        });
+button3=(Button) v.findViewById(R.id.video7);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), VIDEO25.class);
+                startActivity(intent);
+            }
+        });
+
         return v;
     }
 }
