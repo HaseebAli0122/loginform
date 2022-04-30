@@ -72,10 +72,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/stehscope"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr"
+                        />
 
 
                     <TextView
@@ -106,10 +108,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/section"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_p"
+                        />
 
 
                     <TextView
@@ -141,10 +145,12 @@
                     android:padding="16dp">
 
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/ther"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_o"
+                        />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -173,10 +179,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/blood"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_i"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -206,10 +214,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/sugar"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_u"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -239,10 +249,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/tong"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_y"
+                        />
 
 
                     <TextView
@@ -273,10 +285,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/medicalban"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/tr_ah"
+                        />
 
 
 
@@ -308,10 +322,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/surgical"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/hj"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"

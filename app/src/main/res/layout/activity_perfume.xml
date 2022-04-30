@@ -72,22 +72,25 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/dunhil5"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+
+                        />
+
+                    <Button
                         android:id="@+id/per_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Dunhill Desire"
+                        android:textSize="15dp"
+
                         />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Dunhill desire"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+
 
 
                 </LinearLayout>
@@ -108,22 +111,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/boss3"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+                        />
+                    <Button
                         android:id="@+id/per_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="BOSS"
+                        android:textSize="15dp"
+
                         />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Boss"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -145,20 +147,21 @@
                     android:padding="16dp">
 
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/dior8"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/per_h"
+
                         />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Dior Homme "
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/per_h"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Diore"
+                        android:textSize="15dp"
+
+                        />
 
 
                 </LinearLayout>
@@ -179,21 +182,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/gucci3"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+                        />
+                    <Button
                         android:id="@+id/per_g"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="GUCCI"
+                        android:textSize="15dp"
+
                         />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="GUCCI"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -214,20 +217,20 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/per_c"
+                    <ImageView
                         android:layout_width="130dp"
                         android:layout_height="120dp"
                         android:src="@drawable/mill1" />
+                    <Button
+                        android:id="@+id/per_c"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="1 Million"
+                        android:textSize="15dp"
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="1 Million "
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        />
+
 
 
                 </LinearLayout>
@@ -248,22 +251,22 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/jai2"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+
+                        />
+                    <Button
                         android:id="@+id/per_a"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Jaipur"
+                        android:textSize="15dp"
+
                         />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Jaipur"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -284,23 +287,23 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/sreed7"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/per_i"
+
                         />
 
+                    <Button
+                        android:id="@+id/per_i"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Creed"
+                        android:textSize="15dp"
 
+                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text=" Creed"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -321,21 +324,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/tom1"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/per_y"
-                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Tom ford "
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        />
+                    <Button
+                        android:id="@+id/per_y"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Tom Ford"
+                        android:textSize="15dp"
+
+                        />
 
 
                 </LinearLayout>
