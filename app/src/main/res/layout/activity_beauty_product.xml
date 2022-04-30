@@ -72,10 +72,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/kun"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bp_q"
+                        />
 
 
                     <TextView
@@ -106,10 +108,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/nail"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_w"
+                        />
 
 
                     <TextView
@@ -141,10 +145,12 @@
                     android:padding="16dp">
 
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/face"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_e"
+                        />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -173,10 +179,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/facialkit"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_r"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -206,10 +214,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/heads"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_t"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -239,10 +249,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/amla"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_y"
+                        />
 
 
                     <TextView
@@ -273,10 +285,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/keratain"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_u"
+                        />
 
 
 
@@ -308,10 +322,12 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageView
+                    <ImageButton
                         android:src="@drawable/dov"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        android:id="@+id/bq_i"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
