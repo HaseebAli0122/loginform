@@ -75,17 +75,16 @@
                     <ImageView
                         android:src="@drawable/stehscope"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Stethoscope"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -109,17 +108,18 @@
                     <ImageView
                         android:src="@drawable/section"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_p"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Suction Device"
+                        android:textSize="15dp"
+                        />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Suction device"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -144,16 +144,16 @@
                     <ImageView
                         android:src="@drawable/ther"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_o"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Thermometer"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
@@ -176,17 +176,16 @@
                     <ImageView
                         android:src="@drawable/blood"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Blood Pressure"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
-
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_i"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Blood Pressure Device"
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
@@ -209,16 +208,16 @@
                     <ImageView
                         android:src="@drawable/sugar"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Sugar Machine"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_u"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Sugar Checking Device"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -242,17 +241,16 @@
                     <ImageView
                         android:src="@drawable/tong"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_y"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Tongue Depressor"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -276,19 +274,16 @@
                     <ImageView
                         android:src="@drawable/medicalban"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/tr_ah"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Medical Bandage"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
@@ -311,16 +306,17 @@
                     <ImageView
                         android:src="@drawable/surgical"
                         android:layout_width="130dp"
-                        android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                        android:layout_height="140dp"
+                        />
+                    <Button
+                        android:id="@+id/hj"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Surgical Instruments"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>

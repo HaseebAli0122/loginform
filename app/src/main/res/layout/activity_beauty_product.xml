@@ -72,22 +72,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/kun"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/bp_q"
+
                         />
+                    <Button
+                        android:id="@+id/bp_q"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Keune Hair Color"
+                        android:textSize="15dp"
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Keune Hair Colour"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        />
 
 
                 </LinearLayout>
@@ -108,22 +107,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/nail"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/bq_w"
+
                         />
+                    <Button
+                        android:id="@+id/bq_w"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Nail Polish Remover"
+                        android:textSize="15dp"
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Nail Remover"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        />
 
 
                 </LinearLayout>
@@ -145,20 +143,20 @@
                     android:padding="16dp">
 
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/face"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/bq_e"
                         />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Face Mask"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/bq_e"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Face Mask Black"
+                        android:textSize="15dp"
+
+                        />
 
 
                 </LinearLayout>
@@ -179,22 +177,20 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/facialkit"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/bq_r"
                         />
+                    <Button
+                        android:id="@+id/bq_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Facial gold Kit"
+                        android:textSize="15dp"
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Facial Kit"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
-
+                        />
 
                 </LinearLayout>
 
@@ -214,21 +210,21 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/heads"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+                        />
+                    <Button
                         android:id="@+id/bq_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Head and Shoulder"
+                        android:textSize="15dp"
+
                         />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Heads Shoulders"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -249,22 +245,22 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/amla"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+
+                        />
+                    <Button
                         android:id="@+id/bq_y"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Dabur Amla Hair Oil"
+                        android:textSize="15dp"
+
                         />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Amla Hair oil"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -285,23 +281,20 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/keratain"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
-                        android:id="@+id/bq_u"
                         />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/bq_u"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Hair Mask"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+
+                        />
 
 
                 </LinearLayout>
@@ -322,21 +315,22 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
+                    <ImageView
                         android:src="@drawable/dov"
                         android:layout_width="130dp"
                         android:layout_height="140dp"
+                        />
+                    <Button
                         android:id="@+id/bq_i"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Dove Soap"
+                        android:textSize="15dp"
+
                         />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Dove Soap"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+
 
 
                 </LinearLayout>
