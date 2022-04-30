@@ -32,7 +32,7 @@
             android:text="Medicine "
             android:textStyle="bold"
             android:textColor="#0B6A10"
-            android:textSize="28dp" />
+            android:textSize="30dp" />
 
         <TextView
             android:id="@+id/txt1"
@@ -43,9 +43,10 @@
             android:textStyle="italic"
             android:textAlignment="center"
             android:textColor="#EBD4003C"
-            android:textSize="18dp" />
+            android:textSize="20dp" />
 
         <EditText
+
             android:id="@+id/username1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,36 +67,79 @@
             android:layout_margin="10dp"
             android:background="#ECB42B"
             android:hint="Password"
+            android:ems="5"
             android:inputType="numberPassword"
             android:drawableLeft="@drawable/ic_lock"
             android:padding="9dp"
             android:layout_below="@+id/username1"
             android:textColor="@color/white" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxbtn"
+            android:textSize="20sp"
+            android:text="Show Password"
+            android:textColor="#070101"/>
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
+            android:layout_marginLeft="165dp"
             android:text="Already Register?"
             android:textSize="19dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:gravity="right"
             android:textStyle="italic"
-            android:textColor="#B3002A"/>
+            android:textColor="#000000"/>
 
         <Button
             android:id="@+id/btnsignin26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:textStyle="bold"
-
-            android:layout_marginLeft="240dp"
+android:layout_marginTop="13dp"
+            android:layout_marginLeft="200dp"
             android:background="@drawable/buttoncolour"
             android:text="Sign In"
             android:layout_below="@+id/password1"
-            android:textSize="15dp" />
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/others"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="italic"
+            android:layout_above="@id/socialicons"
+            android:text="or sign in with"
+            android:layout_centerHorizontal="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialicons"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:id="@+id/google_btn"
+                android:src="@drawable/img_2"/>
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_3"/>
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_4"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
