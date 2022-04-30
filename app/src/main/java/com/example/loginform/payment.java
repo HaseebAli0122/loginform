@@ -36,7 +36,7 @@ public class payment extends AppCompatActivity implements PaymentResultListener 
                     object.put("name","Abdullah");
                     object.put("descrption","Test Payment");
                     object.put("theme.color","#0093DD");
-                    object.put("currency","INR");
+                    object.put("currency","PKR");
                     object.put("amount",amount);
                     object.put("prefill.contact","0123456789");
                     object.put("prefill.email"
