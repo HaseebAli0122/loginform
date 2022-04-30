@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
@@ -14,7 +15,7 @@ import android.widget.ImageButton;
  * create an instance of this fragment.
  */
 public class Fragment_home extends Fragment {
-    public ImageButton imageButton,btnperfume,btnbaby,btnproduct,btntreatment,btnpedia,btnpersonal,btnglove;
+    public Button button,btnperfume,btnbaby,btnproduct,btntreatment,btnpedia,btnpersonal,btnglove;
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -62,14 +63,14 @@ public class Fragment_home extends Fragment {
                              Bundle savedInstanceState) {
 
         View v = inflater.inflate(R.layout.fragment_home, container, false);
-        imageButton = (ImageButton) v.findViewById(R.id.btn_medi25);
-        btnperfume= (ImageButton) v.findViewById(R.id.btn_perfums);
-        btnbaby = (ImageButton) v.findViewById(R.id.btn_baby);
-        btnproduct = (ImageButton) v.findViewById(R.id.btn_product);
-        btntreatment = (ImageButton) v.findViewById(R.id.btn_treatment);
-        btnpedia = (ImageButton) v.findViewById(R.id.btn_pedia) ;
-        btnpersonal = (ImageButton) v.findViewById(R.id.btn_personal);
-        btnglove = (ImageButton) v.findViewById(R.id.btn_glove);
+        button = (Button) v.findViewById(R.id.btn_medicine);
+        btnperfume= (Button) v.findViewById(R.id.btn_perfumes);
+        btnbaby = (Button) v.findViewById(R.id.btn_baby);
+        btnproduct = (Button) v.findViewById(R.id.btn_product);
+        btntreatment = (Button) v.findViewById(R.id.btn_treatment);
+        btnpedia = (Button) v.findViewById(R.id.btn_pedia) ;
+        btnpersonal = (Button) v.findViewById(R.id.btn_personal);
+        btnglove = (Button) v.findViewById(R.id.btn_glove);
         btnglove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -120,7 +121,7 @@ public class Fragment_home extends Fragment {
 
             }
         });
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), medicinecart.class);
