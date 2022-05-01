@@ -76,16 +76,15 @@
                         android:src="@drawable/fabric"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/g_f"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Fabric Gloves"
+                        android:textSize="15dp"
+                        />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Fabric Glove"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -110,16 +109,14 @@
                         android:src="@drawable/leather"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Leather Glove"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/g_g"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Leather Gloves"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -145,14 +142,15 @@
                         android:src="@drawable/metal"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Metal Mesh Glove"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/g_h"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="metal Mesh Gloves"
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -177,15 +175,15 @@
                         android:src="@drawable/cryogenic"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/g_j"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Cryogenic Gloves"
+                        android:textSize="15dp"
+                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Cryogenic Glove"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
 
 
                 </LinearLayout>
@@ -210,15 +208,15 @@
                         android:src="@drawable/latex1"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/g_k"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Latex Gloves"
+                        android:textSize="15dp"
+                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Latex Glove"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -243,16 +241,15 @@
                         android:src="@drawable/chemical"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/g_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Chemical Gloves"
+                        android:textSize="15dp"
+                        />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Chemical Glove"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
