@@ -53,7 +53,7 @@
 <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/vkyu"
+    android:id="@+id/trew"
     android:layout_margin="10dp"
     android:padding="10dp"
     android:text="Video 2"
@@ -77,15 +77,43 @@
             android:background="@drawable/buttoncolour"
             />
 
+
         <Button
-            android:id="@+id/video7"
-            android:layout_width="139dp"
+            android:id="@+id/qmoy"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/buttoncolour"
             android:padding="10dp"
             android:text="Video 4"
             android:textSize="19dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Video 5"
+            android:id="@+id/icekh"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttoncolour"
+            android:padding="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 6"
+            android:id="@+id/bvuk"
+            android:textSize="19dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttoncolour"
+            android:padding="10dp"/>
+
 
 
 
@@ -95,16 +123,6 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="19dp"
-        android:text="Video 5"
-        android:id="@+id/icekh"
-        android:layout_margin="10dp"
-        android:background="@drawable/buttoncolour"
-        android:padding="10dp"
-        />
 
 
 
