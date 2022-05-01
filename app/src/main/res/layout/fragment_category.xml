@@ -45,7 +45,7 @@
            android:layout_height="wrap_content"
            android:layout_margin="10dp"
            android:padding="10dp"
-           android:text="Video 1"
+           android:text="Perfume Video"
            android:textSize="19dp"
            android:background="@drawable/buttoncolour"
            />
@@ -56,7 +56,7 @@
     android:id="@+id/trew"
     android:layout_margin="10dp"
     android:padding="10dp"
-    android:text="Video 2"
+    android:text="Medicine Video"
     android:textSize="19dp"
     android:background="@drawable/buttoncolour"/>
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:padding="10dp"
-            android:text="Video 3"
+            android:text="Gillete Razor"
             android:textSize="19dp"
             android:background="@drawable/buttoncolour"
             />
@@ -85,7 +85,7 @@
             android:layout_margin="10dp"
             android:background="@drawable/buttoncolour"
             android:padding="10dp"
-            android:text="Video 4"
+            android:text="Beauty Product "
             android:textSize="19dp" />
 
     </LinearLayout>
@@ -98,7 +98,7 @@
             android:layout_width="173dp"
             android:layout_height="wrap_content"
             android:textSize="19dp"
-            android:text="Video 5"
+            android:text="Tooth Paste video"
             android:id="@+id/icekh"
             android:layout_margin="10dp"
             android:background="@drawable/buttoncolour"
@@ -107,7 +107,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Video 6"
+            android:text="Olivia Hair Color"
             android:id="@+id/bvuk"
             android:textSize="19dp"
             android:layout_margin="10dp"
@@ -124,7 +124,7 @@
     <Button
         android:layout_width="173dp"
         android:layout_height="wrap_content"
-        android:text="Video 7"
+        android:text="Pedia Sure"
         android:id="@+id/rmlk"
         android:textSize="19dp"
         android:layout_margin="10dp"
@@ -134,7 +134,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Video 8"
+        android:text="Baby Products"
         android:id="@+id/ups"
         android:textSize="19dp"
         android:layout_margin="10dp"
