@@ -124,7 +124,7 @@
     <Button
         android:layout_width="173dp"
         android:layout_height="wrap_content"
-        android:text="Video 7"
+        android:text="Pedia Sure"
         android:id="@+id/rmlk"
         android:textSize="19dp"
         android:layout_margin="10dp"
@@ -134,7 +134,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Video 8"
+        android:text="Baby Products"
         android:id="@+id/ups"
         android:textSize="19dp"
         android:layout_margin="10dp"
