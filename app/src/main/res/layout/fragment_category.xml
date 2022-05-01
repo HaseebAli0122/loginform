@@ -56,7 +56,7 @@
     android:id="@+id/trew"
     android:layout_margin="10dp"
     android:padding="10dp"
-    android:text="Panadol"
+    android:text="Medicine Video"
     android:textSize="19dp"
     android:background="@drawable/buttoncolour"/>
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:padding="10dp"
-            android:text="Video 3"
+            android:text="Gillete Razor"
             android:textSize="19dp"
             android:background="@drawable/buttoncolour"
             />
@@ -85,7 +85,7 @@
             android:layout_margin="10dp"
             android:background="@drawable/buttoncolour"
             android:padding="10dp"
-            android:text="Video 4"
+            android:text="Beauty Product "
             android:textSize="19dp" />
 
     </LinearLayout>
