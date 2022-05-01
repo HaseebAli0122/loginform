@@ -84,7 +84,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Keune Hair Color"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -119,7 +120,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Nail Polish Remover"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -154,7 +156,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Face Mask Black"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -188,7 +191,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Facial gold Kit"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -221,7 +225,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Head and Shoulder"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -257,7 +262,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Dabur Amla Hair Oil"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -292,7 +298,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Hair Mask"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -326,7 +333,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Dove Soap"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 

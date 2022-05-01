@@ -82,7 +82,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Fabric Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -115,7 +116,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Leather Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -148,7 +150,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="metal Mesh Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -181,7 +184,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Cryogenic Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -214,7 +218,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Latex Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -247,7 +252,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Chemical Gloves"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 

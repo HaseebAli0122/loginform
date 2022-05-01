@@ -82,7 +82,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Disprin"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
                 </LinearLayout>
@@ -114,7 +115,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Panadol"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -148,7 +150,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Brufen"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -181,7 +184,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Polyfax"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -213,7 +217,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Pyodine"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -245,7 +250,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="No Kuff"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -277,7 +283,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Mucaine"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -310,7 +317,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Nilstat"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -342,7 +350,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Humulin"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -374,7 +383,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Rigix"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
