@@ -30,7 +30,7 @@ public class payment extends AppCompatActivity implements PaymentResultListener 
             public void onClick(View view) {
                 Checkout checkout=new Checkout();
                 checkout.setKeyID("rzp_test_ldwswRbxLLZvcd");
-                checkout.setImage(R.drawable.razor);
+                checkout.setImage(R.drawable.download);
                 JSONObject object=new JSONObject();
                 try {
                     object.put("name","Abdullah");
