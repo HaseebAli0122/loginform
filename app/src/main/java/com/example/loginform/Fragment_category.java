@@ -14,10 +14,11 @@ import android.widget.Button;
  * create an instance of this fragment.
  */
 public class Fragment_category extends Fragment {
-    public Button button;
-    public Button button1;
-    public Button button2;
-    public Button button3;
+     Button button;
+     Button b;
+     Button bo;
+     Button bhg;
+     Button btn;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -71,32 +72,31 @@ public class Fragment_category extends Fragment {
                 startActivity(intent);
             }
         });
-        button1=(Button) v.findViewById(R.id.video9);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+
+btn=(Button) v.findViewById(R.id.icekh);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), video1.class);
+                Intent intent = new Intent(getActivity(), VidEo140.class);
                 startActivity(intent);
             }
         });
 
-        button2=(Button) v.findViewById(R.id.video6);
-        button.setOnClickListener(new View.OnClickListener() {
+        b=(Button) v.findViewById(R.id.mih);
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), video2.class);
+                Intent intent=new Intent(getActivity(),video2.class);
                 startActivity(intent);
             }
         });
-button3=(Button) v.findViewById(R.id.video7);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), VIDEO25.class);
-                startActivity(intent);
-            }
-        });
+
 
         return v;
     }
 }
+
+
+

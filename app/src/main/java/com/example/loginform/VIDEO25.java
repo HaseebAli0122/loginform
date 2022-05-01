@@ -14,7 +14,7 @@ public class VIDEO25 extends AppCompatActivity {
         setContentView(R.layout.activity_video25);
 
         VideoView videoView=findViewById(R.id.video250);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.perfumes);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.ads);
         MediaController mediaController =new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

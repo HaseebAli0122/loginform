@@ -1,19 +1,19 @@
 package com.example.loginform;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-public class video extends AppCompatActivity {
+public class VidEo140 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_video);
-
-        VideoView videoView=findViewById(R.id.Video);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.perfumes);
+        setContentView(R.layout.activity_vid_eo140);
+        VideoView videoView=findViewById(R.id.video889);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.ices);
         MediaController mediaController =new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
