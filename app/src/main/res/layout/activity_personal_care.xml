@@ -77,16 +77,14 @@
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/pc_c"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Cleansing Pads"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
@@ -110,16 +108,14 @@
                         android:src="@drawable/wash"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Body Washes"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/pc_v"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Body Wash"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -145,14 +141,15 @@
                         android:src="@drawable/nail1"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Nail files"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/pc_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Nail Files"
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -177,15 +174,14 @@
                         android:src="@drawable/gill"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Razors"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/pc_n"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Gillete Razors"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -210,15 +206,14 @@
                         android:src="@drawable/lotion"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/pc_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Lotions"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -243,16 +238,15 @@
                         android:src="@drawable/cotton"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/pc_a"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Cotton Swab"
+                        android:textSize="15dp"
+                        />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Cotton Swabs"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -277,17 +271,16 @@
                         android:src="@drawable/senso"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/pc_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Tooth Brush"
+                        android:textSize="15dp"
+                        />
 
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Teeth Brush"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -312,16 +305,14 @@
                         android:src="@drawable/medora"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/pc_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Powder"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 

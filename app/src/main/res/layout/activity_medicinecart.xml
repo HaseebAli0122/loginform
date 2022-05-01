@@ -76,17 +76,14 @@
                         android:src="@drawable/disp"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Disprin"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
@@ -111,15 +108,15 @@
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_p"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Panadol"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -145,14 +142,15 @@
                         android:src="@drawable/bru"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Brufen"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -177,15 +175,14 @@
                         android:src="@drawable/polyfax"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_f"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Polyfax"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -210,15 +207,14 @@
                         android:src="@drawable/dine"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_y"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Pyodine"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -243,16 +239,15 @@
                         android:src="@drawable/nokuff"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_n"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="No Kuff"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -276,16 +271,15 @@
                         android:src="@drawable/muc"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_u"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Mucaine"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -310,15 +304,15 @@
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Nilstat"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -342,16 +336,15 @@
                         android:src="@drawable/hum"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
+                    <Button
+                        android:id="@+id/md_hu"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Humulin"
+                        android:textSize="15dp"
+                        />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Humuline"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
 
 
                 </LinearLayout>
@@ -375,16 +368,16 @@
                         android:src="@drawable/rigix"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/md_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Rigix"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
+
 
 
                 </LinearLayout>
