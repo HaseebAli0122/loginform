@@ -77,15 +77,16 @@
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
 
+                    <Button
+                        android:id="@+id/ps_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Grow and Grain"
+                        android:textSize="15dp"
+                        />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Grow and Gain"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+
 
 
                 </LinearLayout>
@@ -111,15 +112,14 @@
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Sidekids"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/ps_f"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Sides Kids"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -145,14 +145,14 @@
                         android:src="@drawable/pediapro"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Pediasure Pro"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                    <Button
+                        android:id="@+id/ps_g"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
+                        android:text="Pedia Sure Pro"
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -177,15 +177,14 @@
                         android:src="@drawable/organi"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/ps_h"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Organic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -210,15 +209,14 @@
                         android:src="@drawable/vanila1"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/ps_j"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Vanilla Flavor"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -243,16 +241,15 @@
                         android:src="@drawable/choclate"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/ps_k"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Chocolate Flavor"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
+
 
 
                 </LinearLayout>
@@ -277,17 +274,14 @@
                         android:src="@drawable/stra"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/ps_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Strawberry Flavor"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
+                        android:textSize="15dp"
+                        />
 
 
                 </LinearLayout>
@@ -312,16 +306,14 @@
                         android:src="@drawable/berry"
                         android:layout_width="130dp"
                         android:layout_height="140dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
+                    <Button
+                        android:id="@+id/ps_p"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:padding="10dp"
                         android:text="Berry Flavor"
-                        android:textStyle="italic"
-                        android:textColor="@color/purple_500"
-                        android:textSize="18sp" />
-
+                        android:textSize="15dp"
+                        />
 
                 </LinearLayout>
 
