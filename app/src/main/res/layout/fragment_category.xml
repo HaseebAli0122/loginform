@@ -131,6 +131,15 @@
         android:background="@drawable/buttoncolour"
         android:padding="10dp"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video 8"
+        android:id="@+id/ups"
+        android:textSize="19dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttoncolour"
+        android:padding="10dp"/>
 
 
 

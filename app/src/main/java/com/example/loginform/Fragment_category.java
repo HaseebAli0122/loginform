@@ -21,6 +21,7 @@ public class Fragment_category extends Fragment {
      Button btn;
      Button bw;
      Button blk;
+     Button bmw;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -123,6 +124,15 @@ blk.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         Intent intent=new Intent(getActivity(),vIDEo99.class);
+        startActivity(intent);
+    }
+});
+
+bmw=(Button) v.findViewById(R.id.ups);
+bmw.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent=new Intent(getActivity(),viDEO41.class);
         startActivity(intent);
     }
 });
