@@ -84,7 +84,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Crib Cradle"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -121,7 +122,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Car Seat"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -157,7 +159,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Diaper"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -191,7 +194,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Bath item"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -226,7 +230,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Feeders"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -261,7 +266,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="BabyToys"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -297,7 +303,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Baby Tools"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -334,7 +341,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Baby Wipes"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 

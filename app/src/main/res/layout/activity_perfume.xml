@@ -85,7 +85,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Dunhill Desire"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -122,7 +123,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="BOSS"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -159,7 +161,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Diore"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -193,7 +196,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="GUCCI"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -211,7 +215,7 @@
                 app:cardElevation="6dp">
 
                 <LinearLayout
-                    android:layout_width="132dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -219,7 +223,7 @@
 
                     <ImageView
                         android:layout_width="130dp"
-                        android:layout_height="120dp"
+                        android:layout_height="140dp"
                         android:src="@drawable/mill1" />
                     <Button
                         android:id="@+id/per_c"
@@ -227,7 +231,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="1 Million"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -263,7 +268,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Jaipur"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -300,7 +306,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Creed"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 
@@ -336,7 +343,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Tom Ford"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
 
                         />
 

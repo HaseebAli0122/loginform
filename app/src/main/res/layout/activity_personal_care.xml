@@ -83,7 +83,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Cleansing Pads"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
                 </LinearLayout>
@@ -114,7 +115,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Body Wash"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -147,7 +149,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Nail Files"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -180,7 +183,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Gillete Razors"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -212,7 +216,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Lotions"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -244,7 +249,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Cotton Swab"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -277,7 +283,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Tooth Brush"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -311,7 +318,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Powder"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
                 </LinearLayout>

@@ -83,7 +83,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Grow and Grain"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -118,7 +119,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Sides Kids"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -151,7 +153,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Pedia Sure Pro"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -183,7 +186,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Organic"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -215,7 +219,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Vanilla Flavor"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -247,7 +252,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Chocolate Flavor"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -280,7 +286,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Strawberry Flavor"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
 
@@ -312,7 +319,8 @@
                         android:layout_height="76dp"
                         android:padding="10dp"
                         android:text="Berry Flavor"
-                        android:textSize="15dp"
+                        android:textSize="12dp"
+                        android:textColor="#7A1EA1"
                         />
 
                 </LinearLayout>
