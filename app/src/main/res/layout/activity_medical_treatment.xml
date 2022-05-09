@@ -20,24 +20,22 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medical Treatment"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Surgical Instrument & Operatus"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="20sp"
+                android:textStyle="italic" />
 
             <TextView
-                android:layout_below="@id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/textview1"
                 android:layout_marginTop="6dp"
-                android:text="Qualitiy Gurrantied"
+                android:text="Qualitiy First"
                 android:textColor="@color/black"
-                android:textSize="14sp"
-                />
+                android:textSize="24sp" />
 
 
             <ImageView
