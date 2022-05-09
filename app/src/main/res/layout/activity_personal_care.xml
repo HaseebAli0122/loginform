@@ -325,6 +325,7 @@
                         android:padding="10dp"
                         android:text="Powder"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
