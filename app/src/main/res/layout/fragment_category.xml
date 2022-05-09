@@ -30,7 +30,7 @@
     android:gravity="center"
     android:text="Quality Quarantied"
     android:textSize="25dp"
-    android:textStyle="italic"
+    android:textStyle="bold"
     android:textColor="#DCA724"
     />
     <Space
