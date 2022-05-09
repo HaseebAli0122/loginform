@@ -22,9 +22,11 @@
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/round_corner.xml" value="0.1075" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/shoppingcart.xml" value="0.127" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/drawable/sub.xml" value="0.127" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_baby_product.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavi.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_button.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_call.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_info.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_medicinecart.xml" value="0.20416666666666666" />
@@ -45,20 +47,14 @@
         <entry key="..\:/Users/92320/AndroidStudioProjects/Loginform/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_baby_product.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_beauty_product.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_call.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_gloves.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_medical_treatment.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_medicinecart.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_optionfor.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_payment.xml" value="0.11141304347826086" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_pediasure.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_perfume.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_personal_care.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_registration.xml" value="0.11141304347826086" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/activity_splashs.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_vi_de_o666.xml" value="0.19010416666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_vi_deo41.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_vid_eo140.xml" value="0.20416666666666666" />
@@ -67,11 +63,8 @@
         <entry key="..\:/loginform/app/src/main/res/layout/activity_video2.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_video25.xml" value="0.19010416666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/activity_video99.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/fragment_call.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/fragment_category.xml" value="0.20416666666666666" />
         <entry key="..\:/loginform/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/loginform/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
-        <entry key="..\:/loginform/app/src/main/res/layout/toolbar_title_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_baby_product.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_beauty_product.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.20416666666666666" />
@@ -97,7 +90,6 @@
         <entry key="..\:/loginformupdate/app/src/main/res/menu/menu_item.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/menu/menusearch.xml" value="0.20416666666666666" />
         <entry key="..\:/loginformupdate/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/osama BSIT/loginform/app/src/main/res/layout/activity_baby_product.xml" value="0.2" />
       </map>
     </option>
   </component>
