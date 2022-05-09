@@ -272,6 +272,7 @@
                         android:text="BabyToys"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -309,6 +310,7 @@
                         android:text="Baby Tools"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
