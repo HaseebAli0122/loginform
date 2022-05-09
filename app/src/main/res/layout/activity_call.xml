@@ -15,7 +15,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="1dp"
-        android:src="@drawable/mohib1"/>
+        android:src="@drawable/pic"/>
 
     <TextView
         android:id="@+id/text5"
