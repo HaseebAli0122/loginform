@@ -20,14 +20,13 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pediasure"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Dairy Supplements"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="22sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_below="@id/textview1"
