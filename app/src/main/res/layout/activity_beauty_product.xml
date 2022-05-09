@@ -86,6 +86,7 @@
                         android:text="Keune Hair Color"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -122,6 +123,7 @@
                         android:text="Nail Polish Remover"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -158,6 +160,7 @@
                         android:text="Face Mask Black"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -193,6 +196,7 @@
                         android:text="Facial gold Kit"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -227,6 +231,7 @@
                         android:text="Head and Shoulder"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -264,6 +269,7 @@
                         android:text="Dabur Amla Hair Oil"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -300,6 +306,7 @@
                         android:text="Hair Mask"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -335,6 +342,7 @@
                         android:text="Dove Soap"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
