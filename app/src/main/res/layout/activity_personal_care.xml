@@ -20,14 +20,13 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Personal Care"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Daily Products"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="22sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_below="@id/textview1"
@@ -85,6 +84,7 @@
                         android:text="Cleansing Pads"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
                 </LinearLayout>
@@ -117,6 +117,7 @@
                         android:text="Body Wash"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
@@ -151,6 +152,7 @@
                         android:text="Nail Files"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
@@ -185,6 +187,7 @@
                         android:text="Gillete Razors"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
@@ -218,6 +221,7 @@
                         android:text="Lotions"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
@@ -251,6 +255,7 @@
                         android:text="Cotton Swab"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
@@ -285,6 +290,7 @@
                         android:text="Tooth Brush"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
                         />
 
 
