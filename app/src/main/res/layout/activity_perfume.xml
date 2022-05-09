@@ -350,6 +350,7 @@
                         android:padding="10dp"
                         android:text="Tom Ford"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
 
                         />
