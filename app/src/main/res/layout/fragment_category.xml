@@ -119,38 +119,33 @@
 
     </LinearLayout>
 
-<LinearLayout
-    android:layout_width="130dp"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-
-    <Button
-        android:id="@+id/rmlk"
-        android:layout_width="120dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@drawable/buttoncolour"
-        android:padding="10dp"
-        android:text="Pedia Sure Ad"
-        android:textSize="19dp" />
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Pedia Sure"
+            android:id="@+id/rmlk"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttoncolour"
+            android:padding="10dp"
+            />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Baby Products"
+            android:id="@+id/ups"
+            android:textSize="19dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttoncolour"
+            android:padding="10dp"/>
 
-    <Button
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Baby Ad"
-        android:id="@+id/ups"
-        android:textSize="19dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/buttoncolour"
-        android:padding="10dp"/>
 
+    </LinearLayout>
 
-
-
-
-
-
-</LinearLayout>
 
 
 </LinearLayout>
