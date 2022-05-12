@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_marginTop="1dp"
         android:src="@drawable/pic"/>
@@ -25,21 +25,23 @@
         android:text="Medicine "
         android:textStyle="bold"
         android:textColor="#0B6A10"
-        android:textSize="28dp" />
+        android:textSize="30dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quality No Compromise"
+        android:text=" No Compromise on Quality"
+        android:textStyle="italic"
         android:layout_gravity="center"
         android:textSize="20dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="If You Want to Call us then Call"
-        android:textColor="#971045"
+        android:text="For queries and further information Call us"
+        android:textStyle="italic"
+        android:textColor="@color/black"
         android:textSize="20dp"
         />
 
@@ -49,6 +51,7 @@
         android:id="@+id/edit_text_number"
         android:hint="Enter Phone Number"
         android:digits="0123456789"
+        android:textStyle="italic"
         android:maxLength="10"
         android:inputType="phone"
         />

@@ -20,14 +20,13 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pediasure"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Dairy Supplements"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="22sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_below="@id/textview1"
@@ -84,6 +83,7 @@
                         android:padding="10dp"
                         android:text="Grow and Grain"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -120,6 +120,7 @@
                         android:padding="10dp"
                         android:text="Sides Kids"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -154,6 +155,7 @@
                         android:padding="10dp"
                         android:text="Pedia Sure Pro"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -187,6 +189,7 @@
                         android:padding="10dp"
                         android:text="Organic"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -220,6 +223,7 @@
                         android:padding="10dp"
                         android:text="Vanilla Flavor"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -253,6 +257,7 @@
                         android:padding="10dp"
                         android:text="Chocolate Flavor"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -287,6 +292,7 @@
                         android:padding="10dp"
                         android:text="Strawberry Flavor"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -320,6 +326,7 @@
                         android:padding="10dp"
                         android:text="Berry Flavor"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 

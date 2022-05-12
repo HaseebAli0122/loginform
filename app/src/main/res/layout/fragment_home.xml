@@ -20,13 +20,13 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Dashboard"
-                android:textSize="22sp"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_below="@id/textview1"
@@ -118,7 +118,10 @@
                         android:textStyle="italic"
                         android:id="@+id/btn_perfumes"
                         android:textSize="12dp"
-                        android:textColor="#7A1EA1"/>
+                        android:textColor="#7A1EA1"
+
+                        />
+
 
 
                 </LinearLayout>
@@ -216,7 +219,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Medical Treatment"
+                        android:text="Surgical Instrument"
                         android:textStyle="italic"
                         android:id="@+id/btn_treatment"
                         android:textSize="12dp"

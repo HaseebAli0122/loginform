@@ -20,24 +20,22 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medical Treatment"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Surgical Instrument"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="20sp"
+                android:textStyle="italic" />
 
             <TextView
-                android:layout_below="@id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/textview1"
                 android:layout_marginTop="6dp"
-                android:text="Qualitiy Gurrantied"
+                android:text="Qualitiy First"
                 android:textColor="@color/black"
-                android:textSize="14sp"
-                />
+                android:textSize="24sp" />
 
 
             <ImageView
@@ -84,6 +82,7 @@
                         android:padding="10dp"
                         android:text="Stethoscope"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -118,6 +117,7 @@
                         android:padding="10dp"
                         android:text="Suction Device"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -155,6 +155,7 @@
                         android:padding="10dp"
                         android:text="Thermometer"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -188,6 +189,7 @@
                         android:padding="10dp"
                         android:text="Blood Pressure Device"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -221,6 +223,7 @@
                         android:padding="10dp"
                         android:text="Sugar Checking Device"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -255,6 +258,7 @@
                         android:padding="10dp"
                         android:text="Tongue Depressor"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 
@@ -287,6 +291,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="76dp"
                         android:padding="10dp"
+                        android:textStyle="italic"
                         android:text="Medical Bandage"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
@@ -322,6 +327,7 @@
                         android:padding="10dp"
                         android:text="Surgical Instruments"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
                         />
 

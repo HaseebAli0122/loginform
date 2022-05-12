@@ -20,14 +20,13 @@
             >
 
             <TextView
+                android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Perfumes"
-                android:textStyle="italic"
-                android:textSize="22sp"
+                android:text="Fragrances"
                 android:textColor="@color/black"
-                android:id="@+id/textview1"
-                />
+                android:textSize="22sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_below="@id/textview1"
@@ -87,6 +86,7 @@
                         android:text="Dunhill Desire"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -125,6 +125,7 @@
                         android:text="BOSS"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -163,6 +164,7 @@
                         android:text="Diore"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -198,6 +200,7 @@
                         android:text="GUCCI"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -233,6 +236,7 @@
                         android:text="1 Million"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -270,6 +274,7 @@
                         android:text="Jaipur"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -308,6 +313,7 @@
                         android:text="Creed"
                         android:textSize="12dp"
                         android:textColor="#7A1EA1"
+                        android:textStyle="italic"
 
                         />
 
@@ -344,6 +350,7 @@
                         android:padding="10dp"
                         android:text="Tom Ford"
                         android:textSize="12dp"
+                        android:textStyle="italic"
                         android:textColor="#7A1EA1"
 
                         />
