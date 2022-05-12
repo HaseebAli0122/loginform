@@ -22,6 +22,7 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+        getSupportActionBar().hide();
        username =(EditText) findViewById(R.id.username1);
        password = (EditText) findViewById(R.id.password1);
        btnsignin = (Button) findViewById(R.id.btnsignin26);

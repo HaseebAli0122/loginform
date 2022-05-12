@@ -10,6 +10,7 @@ public class splashs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashs);
+        getSupportActionBar().hide();
         Thread back = new Thread() {
             public void run() {
                 try {
